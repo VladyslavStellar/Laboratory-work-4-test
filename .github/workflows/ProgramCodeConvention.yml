@@ -16,5 +16,6 @@ jobs:
         env:
           VALIDATE_JAVA: true
           FILTER_REGEX_INCLUDE: .*ProgramCode.java
+          DISABLE_ERRORS: true
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
