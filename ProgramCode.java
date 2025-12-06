@@ -1,14 +1,22 @@
 /**
  * Main class for EcoPoet Finder application.
  */
-public class ProgramCodeModified {
+public final class ProgramCodeModified {
+
+  /**
+   * Private constructor to prevent instantiation.
+   * Utility classes should not have a public or default constructor.
+   */
+  private ProgramCodeModified() {
+    // Prevent instantiation
+  }
 
   /**
    * Main entry point.
    *
    * @param args Command line arguments.
    */
-  public static void main(String[] args) {
+  public static void main(final String[] args) {
     System.out.println("EcoPoet Finder Product");
   }
 }
